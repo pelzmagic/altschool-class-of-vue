@@ -58,7 +58,7 @@ export default {
       messageRef.value.classList.add("text-red");
       messageRef.value.textContent = "Thank you Adebayo!";
     };
-
+    
     return { books, book, addBook, messageRef, updateMessage };
   },
 };
